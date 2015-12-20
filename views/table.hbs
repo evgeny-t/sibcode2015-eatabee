@@ -1,0 +1,48 @@
+
+<h2 id="sibcode-title">{{name}}</h2>
+
+<div>
+    <input id="sibcode-formula" type="text">
+    {{!-- <button id="sibcode-save" type="button">Save</button> --}}
+</div>
+
+<div id="sibcode-table" class="dataTable"></div>
+
+<div id="sibcode-table-id" data-id="{{name}}" hidden></div>
+
+<script>
+    $(document).ready(function () {
+        var foo = $('#sibcode-table-id').data('id');
+        jQuery.ajax('/data/' + foo).done(function(tables) {
+            // console.log(jsondata);
+            // var tables = tables = JSON.parse(jsondata);
+            $('#sibcode-title').text(_.keys(tables)[0]);
+
+            var container = document.getElementById('sibcode-table');
+            var data = function () {
+                return _.values(tables)[0].data;
+            };
+      
+            var hot = new Handsontable(container, {
+                data: data(),
+                height: 396,
+                colHeaders: true,
+                rowHeaders: true,
+                stretchH: 'all',
+                columnSorting: true,
+                contextMenu: true
+            });
+
+            Handsontable.hooks.add('afterSelection', function(r,c,r2,c2) {
+                if (r===r2&&c===c2) {
+                    console.log(_.values(tables)[0].actuals[r][c]);
+                    $('#sibcode-formula').val(_.values(tables)[0].actuals[r][c]);
+                }
+            }, hot);
+
+            // $('#sibcode-save').click(function() {
+            //     console.log($(this));
+            // });
+        });
+    });
+</script>

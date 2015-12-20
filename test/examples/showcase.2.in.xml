@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sheets>
+	<sheet name="Поворот">
+		<cell col="A" row="1">
+			<value>121</value>
+		</cell>
+    <cell col="A" row="2">
+      <value>15.5</value>
+    </cell>
+    <cell col="A" row="3">
+      <value>90</value>
+    </cell>
+
+    <cell col="C" row="1">
+      <value>=COS(A1)*COS(A3)</value>
+    </cell>
+    <cell col="C" row="2">
+      <value>=SIN(A1)*SIN(A2)*COS(A3)+COS(A1)*SIN(A3)</value>
+    </cell>
+    <cell col="C" row="3">
+      <value>=-SIN(A2)*COS(A1)*COS(A3)+SIN(A1)*SIN(A3)</value>
+    </cell>
+
+	</sheet>
+</sheets>

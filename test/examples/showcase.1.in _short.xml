@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sheets>
+	<sheet name="Поворот">
+		<cell col="A" row="1">
+			<value>121</value>
+		</cell>
+    <cell col="A" row="2">
+      <value>15.5</value>
+    </cell>
+    <cell col="A" row="3">
+      <value>90</value>
+    </cell>
+
+	</sheet>
+</sheets>

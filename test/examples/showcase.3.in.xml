@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sheets>
+    <sheet name="Поворот">
+        <cell col="A" row="1">
+            <value>121</value>
+        </cell>
+    <cell col="A" row="2">
+      <value>15.5</value>
+    </cell>
+    <cell col="A" row="3">
+      <value>90</value>
+    </cell>
+
+    <cell col="C" row="1">
+      <value>=COS(A1)*COS(A3)</value>
+    </cell>
+    <cell col="C" row="2">
+      <value>=SIN(A1)*SIN(A2)*COS(A3)+COS(A1)*SIN(A3)</value>
+    </cell>
+    <cell col="C" row="3">
+      <value>=-SIN(A2)*COS(A1)*COS(A3)+SIN(A1)*SIN(A3)</value>
+    </cell>
+
+    <cell col="D" row="1">
+      <value>=-COS(A2)*SIN(A3)</value>
+    </cell>
+    <cell col="D" row="2">
+      <value>=-SIN(A1)*SIN(A2)*SIN(A3)+COS(A1)*COS(A3)</value>
+    </cell>
+    <cell col="D" row="3">
+      <value>=SIN(A2)*COS(A1)*SIN(A3)+SIN(A1)*COS(A3)</value>
+    </cell>
+
+    <cell col="E" row="1">
+      <value>=SIN(A2)</value>
+    </cell>
+    <cell col="E" row="2">
+      <value>=-SIN(A1)*COS(A2)</value>
+    </cell>
+    <cell col="E" row="3">
+      <value>=COS(A1)*COS(A2)</value>
+    </cell>
+
+    <cell col="G" row="1">
+      <value>10</value>
+    </cell>
+    <cell col="G" row="2">
+      <value>-5.259</value>
+    </cell>
+    <cell col="G" row="3">
+      <value>21.8795</value>
+    </cell>
+
+    <cell col="I" row="1">
+      <value>=G1*C1+G2*D1+G3*E1</value>
+    </cell>
+    <cell col="I" row="2">
+      <value>=C2*G1+D2*G2+E2*G3</value>
+    </cell>
+    <cell col="I" row="3">
+      <value>=C3*G1+D3*G2+E3*G3</value>
+    </cell>
+    
+    
+    <cell col="A" row="4">
+      <value>=121-A1</value>
+    </cell>
+    <cell col="A" row="5">
+      <value>=121/A1</value>
+    </cell>
+    <cell col="A" row="6">
+      <value>=-121/A1</value>
+    </cell> 
+    <cell col="A" row="7">
+      <value>=sqrt(4^2)</value>
+    </cell>
+    <cell col="A" row="8">
+      <value>=-sqrt(A1)</value>
+    </cell>
+    <cell col="A" row="9">
+      <value>=2^2^2</value>
+    </cell>
+    <cell col="A" row="10">
+      <value>=aBs(A1)</value>
+    </cell>
+    <cell col="A" row="11">
+      <value>=abs(-A1)</value>
+    </cell>
+    <cell col="A" row="12">
+      <value>=abs(0+A1*0/5)</value>
+    </cell>
+    
+    
+    <cell col="A" row="13">
+            <displayedValue>'nonconsistent data</displayedValue>
+      <value>'hello worlkd</value>
+    </cell>
+    
+    <cell col="A" row="14">
+      <value><![CDATA['hello world]]></value>
+    </cell>
+
+
+
+    </sheet>
+    
+    <sheet name="Поворот2">
+        <cell col="A" row="1">
+            <value>121</value>
+        </cell>
+    <cell col="A" row="2">
+      <value>15.5</value>
+    </cell>
+    <cell col="A" row="3">
+      <value>90</value>
+    </cell>
+
+    <cell col="C" row="1">
+      <value>=COS(A1)*COS(A3)</value>
+    </cell>
+    <cell col="C" row="2">
+      <value>=SIN(A1)*SIN(A2)*COS(A3)+COS(A1)*SIN(A3)</value>
+    </cell>
+    <cell col="C" row="3">
+      <value>=-SIN(A2)*COS(A1)*COS(A3)+SIN(A1)*SIN(A3)</value>
+    </cell>
+
+    <cell col="D" row="1">
+      <value>=-COS(A2)*SIN(A3)</value>
+    </cell>
+    <cell col="D" row="2">
+      <value>=-SIN(A1)*SIN(A2)*SIN(A3)+COS(A1)*COS(A3)</value>
+    </cell>
+    <cell col="D" row="3">
+      <value>=SIN(A2)*COS(A1)*SIN(A3)+SIN(A1)*COS(A3)</value>
+    </cell>
+
+    <cell col="E" row="1">
+      <value>=SIN(A2)</value>
+    </cell>
+    <cell col="E" row="2">
+      <value>=-SIN(A1)*COS(A2)</value>
+    </cell>
+    <cell col="E" row="3">
+      <value>=COS(A1)*COS(A2)</value>
+    </cell>
+
+    <cell col="G" row="1">
+      <value>10</value>
+    </cell>
+    <cell col="G" row="2">
+      <value>-5.259</value>
+    </cell>
+    <cell col="G" row="3">
+      <value>21.8795</value>
+    </cell>
+
+    <cell col="I" row="1">
+      <value>=G1*C1+G2*D1+G3*E1</value>
+    </cell>
+    <cell col="I" row="2">
+      <value>=C2*G1+D2*G2+E2*G3</value>
+    </cell>
+    <cell col="I" row="3">
+      <value>=C3*G1+D3*G2+E3*G3</value>
+    </cell>
+    
+    
+    <cell col="A" row="4">
+      <value>=121-A1</value>
+    </cell>
+    <cell col="A" row="5">
+      <value>=121/A1</value>
+    </cell>
+    <cell col="A" row="6">
+      <value>=-121/A1</value>
+    </cell> 
+    <cell col="A" row="7">
+      <value>=sqrt(4^2)</value>
+    </cell>
+    <cell col="A" row="8">
+      <value>=-sqrt(A1)</value>
+    </cell>
+    <cell col="A" row="9">
+      <value>=2^2^2</value>
+    </cell>
+    <cell col="A" row="10">
+      <value>=aBs(A1)</value>
+    </cell>
+    <cell col="A" row="11">
+      <value>=abs(-A1)</value>
+    </cell>
+    <cell col="A" row="12">
+      <value>=abs(0+A1*0/5)</value>
+    </cell>
+    
+    
+    <cell col="A" row="13">
+            <displayedValue>'nonconsistent data</displayedValue>
+      <value>'hello worlkd</value>
+    </cell>
+    
+    <cell col="A" row="14">
+      <value><![CDATA['hello world]]></value>
+    </cell>
+
+
+
+    </sheet>
+</sheets>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sheets>
+	<sheet name="Поворот">
+		<cell col="A" row="1">
+			<displayedValue>121</displayedValue>
+			<value>121</value>
+		</cell>
+    <cell col="A" row="2">
+			<displayedValue>15.5</displayedValue>
+      <value>15.5</value>
+    </cell>
+    <cell col="A" row="3">
+			<displayedValue>90</displayedValue>
+      <value>90</value>
+    </cell>
+
+    <cell col="C" row="1">
+			<displayedValue>0</displayedValue>
+      <value>=COS(A1)*COS(A3)</value>
+    </cell>
+    <cell col="C" row="2">
+			<displayedValue>-0.51503808</displayedValue>
+      <value>=SIN(A1)*SIN(A2)*COS(A3)+COS(A1)*SIN(A3)</value>
+    </cell>
+    <cell col="C" row="3">
+			<displayedValue>0.8571673</displayedValue>
+      <value>=-SIN(A2)*COS(A1)*COS(A3)+SIN(A1)*SIN(A3)</value>
+    </cell>
+
+    <cell col="D" row="1">
+			<displayedValue>-0.96363045</displayedValue>
+      <value>=-COS(A2)*SIN(A3)</value>
+    </cell>
+    <cell col="D" row="2">
+			<displayedValue>-0.229068</displayedValue>
+      <value>=-SIN(A1)*SIN(A2)*SIN(A3)+COS(A1)*COS(A3)</value>
+    </cell>
+    <cell col="D" row="3">
+			<displayedValue>-0.13763794</displayedValue>
+      <value>=SIN(A2)*COS(A1)*SIN(A3)+SIN(A1)*COS(A3)</value>
+    </cell>
+
+    <cell col="E" row="1">
+			<displayedValue>0.26723838</displayedValue>
+      <value>=SIN(A2)</value>
+    </cell>
+    <cell col="E" row="2">
+			<displayedValue>-0.82599251</displayedValue>
+      <value>=-SIN(A1)*COS(A2)</value>
+    </cell>
+    <cell col="E" row="3">
+			<displayedValue>-0.49630637</displayedValue>
+      <value>=COS(A1)*COS(A2)</value>
+    </cell>
+
+    <cell col="G" row="1">
+			<displayedValue>10</displayedValue>
+      <value>10</value>
+    </cell>
+    <cell col="G" row="2">
+			<displayedValue>-5.259</displayedValue>
+      <value>-5.259</value>
+    </cell>
+    <cell col="G" row="3">
+			<displayedValue>21.8795</displayedValue>
+      <value>21.8795</value>
+    </cell>
+
+    <cell col="I" row="1">
+			<displayedValue>10.9147746</displayedValue>
+      <value>=G1*C1+G2*D1+G3*E1</value>
+    </cell>
+    <cell col="I" row="2">
+			<displayedValue>-22.01801537</displayedValue>
+      <value>=C2*G1+D2*G2+E2*G3</value>
+    </cell>
+    <cell col="I" row="3">
+			<displayedValue>-1.56342437</displayedValue>
+      <value>=C3*G1+D3*G2+E3*G3</value>
+    </cell>
+
+    <cell col="A" row="4">
+			<displayedValue>0</displayedValue>
+      <value>=121-A1</value>
+    </cell>
+    <cell col="A" row="5">
+			<displayedValue>1</displayedValue>
+      <value>=121/A1</value>
+    </cell>
+    <cell col="A" row="6">
+			<displayedValue>-1</displayedValue>
+      <value>=-121/A1</value>
+    </cell>	
+    <cell col="A" row="7">
+			<displayedValue>4</displayedValue>
+      <value>=sqrt(4^2)</value>
+    </cell>
+    <cell col="A" row="8">
+			<displayedValue>-11</displayedValue>
+      <value>=-sqrt(A1)</value>
+    </cell>
+    <cell col="A" row="9">
+			<displayedValue>16</displayedValue>
+      <value>=2^2^2</value>
+    </cell>
+    <cell col="A" row="10">
+			<displayedValue>121</displayedValue>
+      <value>=aBs(A1)</value>
+    </cell>
+    <cell col="A" row="11">
+			<displayedValue>121</displayedValue>
+      <value>=abs(-A1)</value>
+    </cell>
+    <cell col="A" row="12">
+			<displayedValue>0</displayedValue>
+      <value>=abs(0+A1*0/5)</value>
+    </cell>
+    <cell col="A" row="13">
+			<displayedValue>'hello worlkd</displayedValue>
+      <value>'hello worlkd</value>
+    </cell>
+	
+	<cell col="A" row="14">
+			<displayedValue>'hello world</displayedValue>
+			<value><![CDATA['hello world]]></value>
+    </cell>
+	</sheet>
+</sheets>

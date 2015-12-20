@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sheets>
+  <sheet name="List 1">
+    <cell col="A" row="1">
+      <displayedValue>
+           5
+      </displayedValue>
+      <value>
+           5
+      </value>
+    </cell>
+
+    <cell col="A" row="2">
+      <value>
+        <![CDATA[
+              10
+        ]]>
+      </value>
+    </cell>
+
+    <cell col="A" row="2">
+      <displayedValue>
+        <![CDATA[
+              10
+        ]]>
+      </displayedValue>
+      <value>
+        <![CDATA[
+              =A1+A2
+        ]]>
+      </value>
+    </cell>
+
+    <cell col="B" row="2">
+      <value>
+        <![CDATA[
+	  HELLO WORLD
+        ]]>
+      </value>
+    </cell>
+    
+  </sheet>
+</sheets>
+

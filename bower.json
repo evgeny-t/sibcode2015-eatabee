@@ -1,0 +1,24 @@
+{
+  "name": "sibcode",
+  "description": "",
+  "main": "",
+  "authors": [
+    "etimoshenko <evgeny.timoshenko@rubius.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handsontable": "~0.20.2",
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.1"
+  }
+}

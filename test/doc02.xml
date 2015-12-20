@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<sheets>
+  <sheet name="List 1">
+    <cell col="A" row="1">
+      <value>
+	=(2+3)*4
+      </value>
+    </cell>
+
+    <cell col="A" row="2">
+      <value>
+        <![CDATA[
+ 	 =5+10
+        ]]>
+      </value>
+    </cell>
+
+    <cell col="A" row="3">
+      <value>
+        =153-7.5
+      </value>
+    </cell>
+    <cell col="A" row="4">
+      <value>
+	=156/77
+      </value>
+    </cell>
+    <cell col="A" row="5">
+      <value>
+	=2*2
+      </value>
+    </cell>
+    <cell col="A" row="6">
+      <value>
+	=sqrt(16)
+      </value>
+    </cell>
+    <cell col="A" row="7">
+      <value>
+	=2^2
+      </value>
+    </cell>
+    <cell col="A" row="8">
+      <value>
+	=sin(30)
+      </value>
+    </cell>
+    <cell col="A" row="9">
+      <value>
+	=cos(60)
+      </value>
+    </cell>
+    <cell col="A" row="10">
+      <value>
+	=abs(-40)
+      </value>
+    </cell>
+    <cell col="A" row="11">
+      <value>
+	=min(3,4,-5,  10  ,  101  )
+      </value>
+    </cell>
+    <cell col="A" row="12">
+      <value>
+	=min(3,4,-5,  10  ,  101  )
+      </value>
+    </cell>
+    <cell col="A" row="13">
+      <value>
+	=min(A1:A10)
+      </value>
+    </cell>
+    <cell col="A" row="12">
+      <value>
+	=max(3,4,-5,  10  ,  101  )
+      </value>
+    </cell>
+    <cell col="A" row="13">
+      <value>
+	=max(A1:A10)
+      </value>
+    </cell>
+
+    <cell col="A" row="14">
+      <value>
+	=avg(3,4, - 5,10,101)
+      </value>
+    </cell>
+    <cell col="A" row="15">
+      <value>
+	=avg(A1:A10)
+      </value>
+    </cell>
+    
+  </sheet>
+</sheets>
+

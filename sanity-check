@@ -1,0 +1,11 @@
+#!/bin/bash
+
+url=http://0.0.0.0:3000
+id=$(curl -X POST $url/upload -Fdata12=@test/examples/showcase.2.im.xml -H "Content-Type:multipart/form-data")
+curl $url/download/$id
+
+id=$(curl -X POST $url/upload -Fdata12=@test/examples/showcase.1.in.xml -H "Content-Type:multipart/form-data")
+curl $url/download/$id
+
+id=$(curl -X POST $url/upload -Fdata12=@test/examples/showcase.3.in.xml -H "Content-Type:multipart/form-data")
+curl $url/download/$id
